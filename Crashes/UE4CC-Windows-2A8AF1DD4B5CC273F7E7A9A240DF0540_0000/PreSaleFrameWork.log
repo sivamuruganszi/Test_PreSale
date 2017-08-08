@@ -1,0 +1,1456 @@
+﻿Log file open, 08/01/17 14:25:27
+LogInit:Display: Running engine for game: PreSaleFrameWork
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1945988297) SRandInit(1945988298).
+LogTaskGraph: Started task graph with 5 named threads and 16 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.203552
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.01-08.55.28:608][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.01-08.55.28:608][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.01-08.55.28:623][  0]LogInit: Computer: INTEL-PC
+[2017.08.01-08.55.28:623][  0]LogInit: User: Intel
+[2017.08.01-08.55.28:623][  0]LogInit: CPU Page size=4096, Cores=12
+[2017.08.01-08.55.28:623][  0]LogInit: High frequency timer resolution =2.864814 MHz
+[2017.08.01-08.55.28:624][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2017.08.01-08.55.28:624][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.01-08.55.28:624][  0]LogMemory: Process Physical Memory: 281.27 MB used, 281.27 MB peak
+[2017.08.01-08.55.28:624][  0]LogMemory: Process Virtual Memory: 274.74 MB used, 274.74 MB peak
+[2017.08.01-08.55.28:624][  0]LogMemory: Physical Memory: 11837.96 MB used,  20928.27 MB free, 32766.23 MB total
+[2017.08.01-08.55.28:624][  0]LogMemory: Virtual Memory: 637.51 MB used,  20928.27 MB free, 8388608.00 MB total
+[2017.08.01-08.55.28:751][  0]LogInit: Using OS detected language (en-US).
+[2017.08.01-08.55.28:751][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.01-08.55.28:755][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.01-08.55.29:888][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.01-08.55.30:799][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.08.01-08.55.30:799][  0]LogD3D11RHI:       4011/0/16127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.01-08.55.30:800][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.01-08.55.30:811][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.01-08.55.30:811][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.01-08.55.30:811][  0]LogWindows: EnumDisplayDevices:
+[2017.08.01-08.55.30:811][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.08.01-08.55.30:811][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.01-08.55.30:811][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.01-08.55.30:812][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.08.01-08.55.30:812][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.08.01-08.55.30:812][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.08.01-08.55.30:812][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.08.01-08.55.30:812][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.01-08.55.30:812][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.08.01-08.55.30:812][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.01-08.55.30:812][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.01-08.55.30:812][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.01-08.55.30:983][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.01-08.55.31:012][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.01-08.55.31:062][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (E:/UnrealProjects/PreSaleFrameWork/Intermediate/Shaders/WorkingDirectory/8596/).
+[2017.08.01-08.55.31:062][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Intel/AppData/Local/Temp/UnrealShaderWorkingDir/7D97154C42B7990CD184E7BDFAD9E8AD/'.
+[2017.08.01-08.55.31:062][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.01-08.55.32:605][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.01-08.55.32:696][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.01-08.55.32:784][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.01-08.55.32:875][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.01-08.55.32:963][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.01-08.55.33:052][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.01-08.55.33:142][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.01-08.55.33:230][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.01-08.55.33:312][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.01-08.55.33:403][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.01-08.55.33:489][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.01-08.55.33:579][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.01-08.55.33:668][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.01-08.55.33:758][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.01-08.55.33:847][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.01-08.55.34:022][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.01-08.55.34:022][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.01-08.55.34:096][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.01-08.55.34:241][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.01-08.55.34:307][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.01-08.55.34:407][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.01-08.55.34:495][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.01-08.55.34:582][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.01-08.55.34:668][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.01-08.55.34:668][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.01-08.55.35:487][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.01-08.55.35:616][  0]LogDerivedDataCache: Loaded boot cache 0.13s 90MB C:/Users/Intel/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.01-08.55.35:616][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Intel/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.01-08.55.35:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UnrealProjects/PreSaleFrameWork/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.01-08.55.35:616][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.01-08.55.35:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UnrealProjects/PreSaleFrameWork/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.01-08.55.35:616][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.01-08.55.35:639][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.01-08.55.35:655][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Intel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.01-08.55.35:669][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.01-08.55.35:670][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.01-08.55.35:671][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.01-08.55.35:671][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.01-08.55.36:310][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.01-08.55.36:320][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.01-08.55.36:726][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.01-08.55.36:808][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.01-08.55.36:913][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.01-08.55.36:913][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.01-08.55.36:913][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.01-08.55.37:702][  0]LogNetVersion: PreSaleFrameWork , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3825140976)
+[2017.08.01-08.55.37:798][  0]LogAssetRegistry: FAssetRegistry took 0.0321 seconds to start up
+[2017.08.01-08.55.37:894][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.058821 seconds
+[2017.08.01-08.55.37:900][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.01-08.55.37:900][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.01-08.55.37:900][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.01-08.55.38:022][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.01-08.55.41:832][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.01-08.55.41:887][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.01-08.55.42:779][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.01-08.55.43:471][  0]SourceControl: Info Source control is disabled
+[2017.08.01-08.55.43:532][  0]SourceControl: Info Source control is disabled
+[2017.08.01-08.55.43:616][  0]SourceControl: Info Source control is disabled
+[2017.08.01-08.55.43:698][  0]SourceControl: Info Source control is disabled
+[2017.08.01-08.55.44:947][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.01-08.55.45:405][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2017.08.01-08.55.46:136][  0]LogEngine: Initializing Engine...
+[2017.08.01-08.55.46:136][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.01-08.55.46:429][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.01-08.55.46:429][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.01-08.55.46:686][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.01-08.55.46:698][  0]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-08.55.46:710][  0]LogInit: FAudioDevice initialized.
+[2017.08.01-08.55.46:760][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Intel/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.01-08.55.46:783][  0]LogInit: Texture streaming: Enabled
+[2017.08.01-08.55.46:940][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.01-08.55.47:351][  0]LogInit: Transaction tracking system initialized
+[2017.08.01-08.55.47:933][  0]BlueprintLog: New page: Editor Load
+[2017.08.01-08.55.49:728][  0]LocalizationService: Info Localization service is disabled
+[2017.08.01-08.55.51:227][  0]LogConsoleResponse:Display: 
+[2017.08.01-08.55.51:434][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.01-08.55.51:434][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.01-08.55.52:120][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealProjects/PreSaleFrameWork/Content/' took 0.01s
+[2017.08.01-08.55.53:311][  0]SourceControl: Info Source control is disabled
+[2017.08.01-08.55.53:311][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-08.55.53:312][  0]LightingResults: New page: Lighting Build
+[2017.08.01-08.55.53:391][  0]MapCheck: New page: Map Check
+[2017.08.01-08.55.53:391][  0]LightingResults: New page: Lighting Build
+[2017.08.01-08.55.53:743][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.01-08.55.53:744][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.01-08.55.53:749][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.01-08.55.53:778][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-08.55.53:847][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.758ms to complete.
+[2017.08.01-08.55.53:847][  0]LogFileHelpers: Loading map 'Template_Default' took 0.536
+[2017.08.01-08.55.54:018][  0]LogCollectionManager: Loaded 0 collections in 0.001485 seconds
+[2017.08.01-08.55.54:128][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealProjects/PreSaleFrameWork/Saved/Collections/' took 0.01s
+[2017.08.01-08.55.54:128][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealProjects/PreSaleFrameWork/Content/Developers/Intel/Collections/' took 0.01s
+[2017.08.01-08.55.54:128][  0]LogFileCache: Scanning file cache for directory 'E:/UnrealProjects/PreSaleFrameWork/Content/Collections/' took 0.00s
+[2017.08.01-08.55.54:128][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.08.01-08.55.54:141][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2329 classes and 491 folders.
+[2017.08.01-08.55.54:258][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.01-08.55.54:306][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.01-08.55.54:387][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.01-08.55.54:449][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.01-08.55.54:456][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-08.55.54:458][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.01-08.55.54:465][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.01-08.55.54:615][  0]LogRenderer: Reallocating scene render targets to support 1208x516 NumSamples 1 (Frame:1).
+[2017.08.01-08.55.54:782][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.01-08.55.54:884][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.01-08.55.54:884][  0]LogLoad: (Engine Initialization) Total time: 28.63 seconds
+[2017.08.01-08.55.54:884][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.08.01-08.55.54:884][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.01-08.55.54:884][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.01-08.55.55:223][  0]LogOcInput: OculusInput pre-init called
+[2017.08.01-08.55.55:224][  0]LogHMD: Starting GearVRController plugin
+[2017.08.01-08.55.55:250][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.01-08.55.55:350][  0]LogRenderer: Reallocating scene render targets to support 1208x532 NumSamples 1 (Frame:3).
+[2017.08.01-08.55.55:350][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-08.55.55:894][  2]LogAssetRegistry: Asset discovery search completed in 18.1164 seconds
+[2017.08.01-08.55.55:897][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.01-08.55.55:897][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000132 seconds (updated 0 objects)
+[2017.08.01-09.01.06:089][471]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-09.01.24:970][842]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 112 classes and 0 folders.
+[2017.08.01-09.01.26:011][842]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-09.01.27:534][934]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:90).
+[2017.08.01-09.01.30:465][267]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.01.32:227][474]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.01.32:231][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:231][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset.
+[2017.08.01-09.01.32:231][474]LoadErrors:Error: Error /Game/UI/FurdoHUD : Can't find file for asset. /Game/WalkthoughUI
+[2017.08.01-09.01.32:232][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:232][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset.
+[2017.08.01-09.01.32:234][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:234][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading NULL.
+[2017.08.01-09.01.32:234][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:234][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading NULL.
+[2017.08.01-09.01.32:234][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:234][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading NULL.
+[2017.08.01-09.01.32:235][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:236][474]LoadErrors: Info Failed to load /Game/WalkthoughUI.WalkthoughUI_C Referenced by K2Node_CreateWidget_0
+[2017.08.01-09.01.32:236][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading NULL.
+[2017.08.01-09.01.32:236][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:236][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading NULL.
+[2017.08.01-09.01.32:236][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:236][474]LoadErrors: Info Failed to load /Game/WalkthoughUI.WalkthoughUI_C Referenced by K2Node_CallFunction_47
+[2017.08.01-09.01.32:236][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading NULL.
+[2017.08.01-09.01.32:236][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:237][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading NULL.
+[2017.08.01-09.01.32:237][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:237][474]LoadErrors: Info Failed to load /Game/WalkthoughUI.WalkthoughUI_C Referenced by K2Node_MacroInstance_8
+[2017.08.01-09.01.32:237][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading NULL.
+[2017.08.01-09.01.32:237][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:237][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading NULL.
+[2017.08.01-09.01.32:237][474]LogLinker:Warning: Can't find file '/Game/WalkthoughUI'
+[2017.08.01-09.01.32:237][474]LogLinker:Warning: Can't find file for asset '/Game/WalkthoughUI' while loading NULL.
+[2017.08.01-09.01.32:242][474]LogBlueprint:Error: [Compiler FurdoHUD] Error Spawn node  Create Widget  must have a class specified.
+[2017.08.01-09.01.32:244][474]LogBlueprint:Error: [Compiler FurdoHUD] Error COMPILER ERROR: failed building connection with 'Array of References is not compatible with Array of User Widget References.' at  Get (a copy)
+[2017.08.01-09.01.32:244][474]LogBlueprint:Error: [Compiler FurdoHUD] Error COMPILER ERROR: failed building connection with 'Reference is not compatible with Widget Reference.' at  Get (a copy)
+[2017.08.01-09.01.32:244][474]LogBlueprint:Error: [Compiler FurdoHUD] Error Can't connect pins  Found Widgets  and  Target Array : Array of User Widget References is not compatible with Array of References.
+[2017.08.01-09.01.32:245][474]LogBlueprint:Error: [Compiler FurdoHUD] Error Invalid pin connection from ' Found Widgets ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.08.01-09.01.32:245][474]LogBlueprint:Error: [Compiler FurdoHUD] Error Can't connect pins  Target Array  and  Found Widgets : Array of References is not compatible with Array of User Widget References.
+[2017.08.01-09.01.32:245][474]LogBlueprint:Error: [Compiler FurdoHUD] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.08.01-09.01.32:248][474]LogBlueprint:Warning: [Compiler FurdoHUD] Warning [0366.00] Compile of FurdoHUD failed. 7 Fatal Issue(s) 0 Warning(s) [in 7 ms] (/Game/UI/FurdoHUD.FurdoHUD)
+[2017.08.01-09.01.32:248][474]LogBlueprint:Warning: [Compiler FurdoHUD] Warning [0366.00] Compile of FurdoHUD failed. 7 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/UI/FurdoHUD.FurdoHUD)
+[2017.08.01-09.01.32:248][474]LogBlueprint:Warning: [Compiler FurdoHUD] Warning [0366.00] Compile of FurdoHUD failed. 7 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/UI/FurdoHUD.FurdoHUD)
+[2017.08.01-09.01.33:174][581]BlueprintLog: New page: Compile PreSaleGameMode
+[2017.08.01-09.01.33:425][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PreSaleGameMode" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset" SILENT=true
+[2017.08.01-09.01.33:434][581]LogSavePackage: Save=7.64ms
+[2017.08.01-09.01.33:434][581]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/PreSaleGameMode97AA05F1491BFB1324FF858FDAEE6539.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset'
+[2017.08.01-09.01.33:443][581]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset
+[2017.08.01-09.01.34:990][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PreSaleGameMode" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset" SILENT=true
+[2017.08.01-09.01.34:998][743]LogSavePackage: Save=6.59ms
+[2017.08.01-09.01.34:998][743]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/PreSaleGameModeA2934E404F29944BF2CC72876FDD2157.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset'
+[2017.08.01-09.01.35:005][743]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset
+[2017.08.01-09.01.39:098][ 94]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.01-09.01.39:149][ 95]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PreSaleFrameWork
+[2017.08.01-09.01.39:149][ 95]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.01-09.01.39:149][ 95]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.01-09.01.39:149][ 95]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.01-09.01.39:149][ 95]LogTemp: BranchPath = INTEL-PC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = INTEL-PC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.01-09.01.39:159][ 96]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Intel\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.01-09.01.44:601][736]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.01.58:318][351]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.01.58:359][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.02.06:668][929]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.01-09.02.06:771][930]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.01-09.02.12:045][500]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.02.12:047][500]LogLinker:Warning: Can't find file '/Game/navigation'
+[2017.08.01-09.02.12:047][500]LogLinker:Warning: Can't find file for asset '/Game/navigation' while loading E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset.
+[2017.08.01-09.02.12:048][500]LoadErrors:Error: Error /Game/UI/WalkthoughUI : Can't find file for asset. /Game/navigation
+[2017.08.01-09.02.12:048][500]LogLinker:Warning: Can't find file '/Game/navigation'
+[2017.08.01-09.02.12:048][500]LogLinker:Warning: Can't find file for asset '/Game/navigation' while loading E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset.
+[2017.08.01-09.02.12:049][500]LogLinker:Warning: Can't find file '/Game/navigation'
+[2017.08.01-09.02.12:049][500]LogLinker:Warning: Can't find file for asset '/Game/navigation' while loading NULL.
+[2017.08.01-09.02.12:049][500]LogLinker:Warning: Can't find file '/Game/navigation'
+[2017.08.01-09.02.12:049][500]LogLinker:Warning: Can't find file for asset '/Game/navigation' while loading NULL.
+[2017.08.01-09.02.12:050][500]LogLinker:Warning: Can't find file '/Game/navigation'
+[2017.08.01-09.02.12:050][500]LoadErrors: Info Failed to load /Game/navigation.navigation Referenced by Image_39
+[2017.08.01-09.02.12:051][500]LogLinker:Warning: Can't find file for asset '/Game/navigation' while loading NULL.
+[2017.08.01-09.02.12:056][500]LogLinker:Warning: Can't find file '/Game/navigation'
+[2017.08.01-09.02.12:056][500]LogLinker:Warning: Can't find file for asset '/Game/navigation' while loading NULL.
+[2017.08.01-09.02.12:884][595]BlueprintLog: New page: Compile FurdoHUD
+[2017.08.01-09.02.12:893][595]LogBlueprint:Error: [Compiler FurdoHUD] Error COMPILER ERROR: failed building connection with 'Array of References is not compatible with Array of User Widget References.' at  Get (a copy)
+[2017.08.01-09.02.12:893][595]LogBlueprint:Error: [Compiler FurdoHUD] Error COMPILER ERROR: failed building connection with 'Reference is not compatible with Widget Reference.' at  Get (a copy)
+[2017.08.01-09.02.12:893][595]LogBlueprint:Error: [Compiler FurdoHUD] Error Can't connect pins  Found Widgets  and  Target Array : Array of User Widget References is not compatible with Array of References.
+[2017.08.01-09.02.12:893][595]LogBlueprint:Error: [Compiler FurdoHUD] Error Invalid pin connection from ' Found Widgets ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.08.01-09.02.12:894][595]LogBlueprint:Error: [Compiler FurdoHUD] Error Can't connect pins  Target Array  and  Found Widgets : Array of References is not compatible with Array of User Widget References.
+[2017.08.01-09.02.12:894][595]LogBlueprint:Error: [Compiler FurdoHUD] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.08.01-09.02.13:115][595]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Array of References is not compatible with Array of User Widget References.' at  Get (a copy)
+[2017.08.01-09.02.13:116][595]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Reference is not compatible with Widget Reference.' at  Get (a copy)
+[2017.08.01-09.02.13:116][595]BlueprintEditorCompileResults:Error: Error Can't connect pins  Found Widgets  and  Target Array : Array of User Widget References is not compatible with Array of References.
+[2017.08.01-09.02.13:116][595]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Found Widgets ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.08.01-09.02.13:116][595]BlueprintEditorCompileResults:Error: Error Can't connect pins  Target Array  and  Found Widgets : Array of References is not compatible with Array of User Widget References.
+[2017.08.01-09.02.13:116][595]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.08.01-09.02.13:116][595]LogBlueprint:Warning: [Compiler FurdoHUD] Warning [0406.87] Compile of FurdoHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 231 ms] (/Game/UI/FurdoHUD.FurdoHUD)
+[2017.08.01-09.02.15:784][904]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.02.17:664][116]BlueprintLog: New page: Compile FurdoHUD
+[2017.08.01-09.02.17:672][116]LogBlueprint:Error: [Compiler FurdoHUD] Error COMPILER ERROR: failed building connection with 'Array of References is not compatible with Array of Walkthough UI References.' at  Get (a copy)
+[2017.08.01-09.02.17:672][116]LogBlueprint:Error: [Compiler FurdoHUD] Error COMPILER ERROR: failed building connection with 'Reference is not compatible with Widget Reference.' at  Get (a copy)
+[2017.08.01-09.02.17:672][116]LogBlueprint:Error: [Compiler FurdoHUD] Error Can't connect pins  Found Widgets  and  Target Array : Array of Walkthough UI References is not compatible with Array of References.
+[2017.08.01-09.02.17:673][116]LogBlueprint:Error: [Compiler FurdoHUD] Error Invalid pin connection from ' Found Widgets ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.08.01-09.02.17:673][116]LogBlueprint:Error: [Compiler FurdoHUD] Error Can't connect pins  Target Array  and  Found Widgets : Array of References is not compatible with Array of Walkthough UI References.
+[2017.08.01-09.02.17:673][116]LogBlueprint:Error: [Compiler FurdoHUD] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.08.01-09.02.17:923][116]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Array of References is not compatible with Array of Walkthough UI References.' at  Get (a copy)
+[2017.08.01-09.02.17:923][116]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Reference is not compatible with Widget Reference.' at  Get (a copy)
+[2017.08.01-09.02.17:923][116]BlueprintEditorCompileResults:Error: Error Can't connect pins  Found Widgets  and  Target Array : Array of Walkthough UI References is not compatible with Array of References.
+[2017.08.01-09.02.17:923][116]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' Found Widgets ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.08.01-09.02.17:923][116]BlueprintEditorCompileResults:Error: Error Can't connect pins  Target Array  and  Found Widgets : Array of References is not compatible with Array of Walkthough UI References.
+[2017.08.01-09.02.17:923][116]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.08.01-09.02.17:923][116]LogBlueprint:Warning: [Compiler FurdoHUD] Warning [0411.68] Compile of FurdoHUD failed. 6 Fatal Issue(s) 0 Warning(s) [in 259 ms] (/Game/UI/FurdoHUD.FurdoHUD)
+[2017.08.01-09.02.50:077][892]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.03.19:063][240]BlueprintLog: New page: Compile FurdoHUD
+[2017.08.01-09.03.19:225][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FurdoHUD" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset" SILENT=true
+[2017.08.01-09.03.19:255][240]LogSavePackage: Save=28.08ms
+[2017.08.01-09.03.19:255][240]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoHUD2244A899481F0114BD05439721B29BD9.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset'
+[2017.08.01-09.03.19:265][240]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset
+[2017.08.01-09.03.31:924][741]BlueprintLog: New page: Compile FurdoHUD
+[2017.08.01-09.03.32:089][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FurdoHUD" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset" SILENT=true
+[2017.08.01-09.03.32:114][741]LogSavePackage: Save=23.46ms
+[2017.08.01-09.03.32:114][741]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoHUDCE7B11B042F7DD6F86C31F82EE351B44.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset'
+[2017.08.01-09.03.32:125][741]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset
+[2017.08.01-09.03.32:755][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FurdoHUD" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset" SILENT=true
+[2017.08.01-09.03.32:779][810]LogSavePackage: Save=22.59ms
+[2017.08.01-09.03.32:779][810]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoHUD6DFC453241BE333C8849E6AAF7A60D9C.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset'
+[2017.08.01-09.03.32:789][810]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset
+[2017.08.01-09.03.35:037][ 72]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.03.35:051][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.03.35:076][ 72]PIE: New page: PIE session: Untitled_1 (Aug 1, 2017, 8:03:35 PM)
+[2017.08.01-09.03.35:076][ 72]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.01-09.03.35:079][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002735s)
+[2017.08.01-09.03.35:080][ 72]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.01-09.03.35:080][ 72]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2017.08.01-09.03.35:080][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003937s)
+[2017.08.01-09.03.35:123][ 72]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.03.35:134][ 72]LogInit: FAudioDevice initialized.
+[2017.08.01-09.03.35:174][ 72]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.03.35:179][ 72]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.01-14.33.35
+[2017.08.01-09.03.35:179][ 72]LogWorld: Bringing up level for play took: 0.001172
+[2017.08.01-09.03.35:277][ 72]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 11 classes and 0 folders.
+[2017.08.01-09.03.35:277][ 72]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.03.35:277][ 72]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.03.35:277][ 72]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.03.35:280][ 72]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.03.35:280][ 72]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.066
+[2017.08.01-09.03.35:287][ 72]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2017.08.01-09.03.35:287][ 72]LogCameraPhotography: Photography camera created.  Provider=NVIDIA Ansel, Supported=1
+[2017.08.01-09.03.35:306][ 73]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2017.08.01-09.03.38:865][415]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-09.03.51:538][632]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.03.51:544][632]LogLinker: Can't find file '/Game/navigation'
+[2017.08.01-09.03.51:544][632]LogLinker: Can't find file for asset '/Game/navigation' while loading E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset.
+[2017.08.01-09.03.51:544][632]LogLinker: Can't find file '/Game/navigation'
+[2017.08.01-09.03.51:544][632]LogLinker: Can't find file for asset '/Game/navigation' while loading E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset.
+[2017.08.01-09.03.51:738][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.03.51:748][632]LogSavePackage: Save=8.33ms
+[2017.08.01-09.03.51:748][632]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI4967CDEF4DAE24C25F35618C76013E6B.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.03.51:761][632]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.03.51:764][632]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.03.53:149][788]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.03.53:166][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.03.53:166][788]PIE: New page: PIE session: Untitled_1 (Aug 1, 2017, 8:03:53 PM)
+[2017.08.01-09.03.53:166][788]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.01-09.03.53:169][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002125s)
+[2017.08.01-09.03.53:169][788]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.01-09.03.53:170][788]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2017.08.01-09.03.53:170][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003350s)
+[2017.08.01-09.03.53:213][788]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.03.53:225][788]LogInit: FAudioDevice initialized.
+[2017.08.01-09.03.53:257][788]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.03.53:263][788]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.01-14.33.53
+[2017.08.01-09.03.53:264][788]LogWorld: Bringing up level for play took: 0.001279
+[2017.08.01-09.03.53:264][788]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.03.53:265][788]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.03.53:265][788]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.03.53:266][788]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.03.53:266][788]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.081
+[2017.08.01-09.06.19:528][426]LogLinker: Can't find file '/Game/FurdoHUD'
+[2017.08.01-09.06.19:528][426]LogLinker: Can't find file '/Game/FurdoHUD'
+[2017.08.01-09.06.19:530][426]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/FurdoHUD.FurdoHUD_C',MemberName="ToggleInstructions",MemberGuid=2FAAAEAC4DA42A81488BA8B1646E049C)'
+[2017.08.01-09.06.22:537][762]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.06.49:019][795]BlueprintLog: New page: Compile Untitled
+[2017.08.01-09.06.50:290][921]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.06.50:308][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.06.50:308][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.06.50:308][921]PIE: New page: PIE session: Untitled_1 (Aug 1, 2017, 8:06:50 PM)
+[2017.08.01-09.06.50:308][921]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.01-09.06.50:311][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002741s)
+[2017.08.01-09.06.50:312][921]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.01-09.06.50:312][921]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2017.08.01-09.06.50:312][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003832s)
+[2017.08.01-09.06.50:348][921]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.06.50:360][921]LogInit: FAudioDevice initialized.
+[2017.08.01-09.06.50:391][921]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.06.50:397][921]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.01-14.36.50
+[2017.08.01-09.06.50:398][921]LogWorld: Bringing up level for play took: 0.001506
+[2017.08.01-09.06.50:399][921]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.06.50:399][921]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.06.50:399][921]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.06.50:400][921]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.06.50:400][921]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.055
+[2017.08.01-09.06.50:400][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.06.58:395][851]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.06.58:434][851]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.08.51:944][325]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.08.52:195][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.08.52:208][325]LogSavePackage: Save=11.25ms
+[2017.08.01-09.08.52:208][325]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI1945FAAB4E0BC3D10F221C97F73F2F2E.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.08.52:216][325]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.08.52:220][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FurdoHUD" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset" SILENT=true
+[2017.08.01-09.08.52:244][325]LogSavePackage: Save=22.43ms
+[2017.08.01-09.08.52:244][325]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoHUD77200DA34A94FDDAF44C618AA0BB81AD.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset'
+[2017.08.01-09.08.52:254][325]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset
+[2017.08.01-09.08.52:258][325]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.09.10:439][407]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.09.29:287][620]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.09.29:454][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.09.29:473][620]LogSavePackage: Save=18.11ms
+[2017.08.01-09.09.29:473][620]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI635CEDDA4FC83A1A8A69A5882247156A.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.09.29:482][620]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.09.29:487][620]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.09.46:278][605]BlueprintLog: New page: Compile FurdoHUD
+[2017.08.01-09.09.46:452][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FurdoHUD" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset" SILENT=true
+[2017.08.01-09.09.46:476][605]LogSavePackage: Save=23.20ms
+[2017.08.01-09.09.46:476][605]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoHUD6D414B374045957DE400EA8D989EC1E0.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset'
+[2017.08.01-09.09.46:487][605]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset
+[2017.08.01-09.10.41:114][ 90]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.10.41:330][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.10.41:349][ 90]LogSavePackage: Save=17.76ms
+[2017.08.01-09.10.41:349][ 90]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI0EF826074728A89C7B43358A51B448FA.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.10.41:358][ 90]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.10.41:361][ 90]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.10.42:489][215]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.10.42:511][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.10.42:511][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.10.42:511][215]PIE: New page: PIE session: Untitled_1 (Aug 1, 2017, 8:10:42 PM)
+[2017.08.01-09.10.42:512][215]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.01-09.10.42:515][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002978s)
+[2017.08.01-09.10.42:515][215]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.01-09.10.42:515][215]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2017.08.01-09.10.42:516][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004044s)
+[2017.08.01-09.10.42:556][215]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.10.42:567][215]LogInit: FAudioDevice initialized.
+[2017.08.01-09.10.42:598][215]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.10.42:603][215]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.01-14.40.42
+[2017.08.01-09.10.42:604][215]LogWorld: Bringing up level for play took: 0.001347
+[2017.08.01-09.10.42:604][215]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.10.42:604][215]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.10.42:604][215]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.10.42:605][215]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.10.42:605][215]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.739
+[2017.08.01-09.10.42:606][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.10.43:683][338]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.10.43:717][338]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.10.57:133][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.10.57:151][797]LogSavePackage: Save=16.91ms
+[2017.08.01-09.10.57:151][797]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI679B28234058854BB1D7AC94BFD3CD35.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.10.57:161][797]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.10.58:292][920]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.10.58:328][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.10.58:328][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.10.58:328][920]PIE: New page: PIE session: Untitled_1 (Aug 1, 2017, 8:10:58 PM)
+[2017.08.01-09.10.58:328][920]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.01-09.10.58:331][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002791s)
+[2017.08.01-09.10.58:332][920]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.01-09.10.58:332][920]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2017.08.01-09.10.58:332][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003845s)
+[2017.08.01-09.10.58:366][920]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.10.58:375][920]LogInit: FAudioDevice initialized.
+[2017.08.01-09.10.58:404][920]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.10.58:408][920]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.01-14.40.58
+[2017.08.01-09.10.58:409][920]LogWorld: Bringing up level for play took: 0.001329
+[2017.08.01-09.10.58:409][920]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.10.58:409][920]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.10.58:409][920]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.10.58:411][920]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.10.58:411][920]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.064
+[2017.08.01-09.10.58:411][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.11.03:096][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.11.03:135][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.11.28:658][353]BlueprintLog: New page: Compile FurdoHUD
+[2017.08.01-09.11.28:860][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FurdoHUD" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset" SILENT=true
+[2017.08.01-09.11.28:884][353]LogSavePackage: Save=22.92ms
+[2017.08.01-09.11.28:884][353]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoHUD16B5EC404EEF92FB24A32D9548C73A60.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset'
+[2017.08.01-09.11.28:893][353]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/FurdoHUD.uasset
+[2017.08.01-09.11.38:923][522]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.11.38:941][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.11.38:941][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.11.38:941][522]PIE: New page: PIE session: Untitled_1 (Aug 1, 2017, 8:11:38 PM)
+[2017.08.01-09.11.38:941][522]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.01-09.11.38:944][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002526s)
+[2017.08.01-09.11.38:945][522]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.01-09.11.38:945][522]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2017.08.01-09.11.38:945][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003529s)
+[2017.08.01-09.11.38:993][522]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.11.39:003][522]LogInit: FAudioDevice initialized.
+[2017.08.01-09.11.39:036][522]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.11.39:043][522]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.01-14.41.39
+[2017.08.01-09.11.39:043][522]LogWorld: Bringing up level for play took: 0.001334
+[2017.08.01-09.11.39:044][522]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.11.39:044][522]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.11.39:044][522]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.11.39:045][522]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.11.39:045][522]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.305
+[2017.08.01-09.11.39:045][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.11.40:733][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.11.40:767][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.12.26:867][ 12]LogEditorTransaction: Undo Move Widget
+[2017.08.01-09.13.08:042][555]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.13.08:274][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.13.08:293][555]LogSavePackage: Save=17.47ms
+[2017.08.01-09.13.08:293][555]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUID6030F864766EFF4A2B56B93FD7D9DEB.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.13.08:303][555]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.13.08:322][555]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.13.12:411][959]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.13.12:608][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.13.12:627][959]LogSavePackage: Save=17.68ms
+[2017.08.01-09.13.12:627][959]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI3BDEF72044640CC903326182C3725303.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.13.12:635][959]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.13.12:642][959]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.13.14:256][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.13.14:273][112]LogSavePackage: Save=16.63ms
+[2017.08.01-09.13.14:273][112]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUIB0F38D0F4F2D1C7A360D8B98BDF930B5.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.13.14:281][112]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.13.15:208][213]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.13.15:226][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.13.15:226][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.13.15:226][213]PIE: New page: PIE session: Untitled_1 (Aug 1, 2017, 8:13:15 PM)
+[2017.08.01-09.13.15:226][213]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.08.01-09.13.15:229][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002846s)
+[2017.08.01-09.13.15:230][213]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.01-09.13.15:230][213]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2017.08.01-09.13.15:230][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003899s)
+[2017.08.01-09.13.15:269][213]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.13.15:279][213]LogInit: FAudioDevice initialized.
+[2017.08.01-09.13.15:314][213]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.13.15:321][213]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.01-14.43.15
+[2017.08.01-09.13.15:321][213]LogWorld: Bringing up level for play took: 0.001863
+[2017.08.01-09.13.15:323][213]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.13.15:323][213]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.13.15:323][213]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.13.15:324][213]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.13.15:324][213]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.034
+[2017.08.01-09.13.15:325][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.13.17:463][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.13.17:502][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2017.08.01-09.13.29:423][635]LogEditorTransaction: Undo Move Widget
+[2017.08.01-09.13.38:516][430]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.13.38:722][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.13.38:741][430]LogSavePackage: Save=18.04ms
+[2017.08.01-09.13.38:741][430]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUICF73A8CF44F86A4510FF67922CD325B6.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.13.38:750][430]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.13.38:755][430]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.13.38:905][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.13.38:923][441]LogSavePackage: Save=16.82ms
+[2017.08.01-09.13.38:923][441]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI68CBD5604192FEAA2E5147BD1894ADEE.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.13.38:931][441]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.14.03:882][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="E:/UnrealProjects/PreSaleFrameWork/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.01-09.14.04:046][325]LogSavePackage: Save=163.52ms
+[2017.08.01-09.14.04:046][325]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/Untitled_1_Auto1258DA28B4C41ED3DCE02BBB2DB115535.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.08.01-09.14.04:077][325]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.08.01-09.14.04:079][325]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.240
+[2017.08.01-09.14.04:079][325]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.240
+[2017.08.01-09.14.30:949][992]LogTextFormatter:Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2017.08.01-09.14.38:594][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Walkthrough" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.01-09.14.38:795][992]LogSavePackage: Save=160.14ms
+[2017.08.01-09.14.38:795][992]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthroughC989C72649320A79153404A4F438C4B0.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap'
+[2017.08.01-09.14.38:817][992]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap
+[2017.08.01-09.14.38:835][992]LogFileHelpers: Saving map 'Walkthrough' took 0.914
+[2017.08.01-09.14.42:982][459]Cmd: MAP LOAD FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-09.14.42:982][459]LightingResults: New page: Lighting Build
+[2017.08.01-09.14.42:983][459]LoadErrors: New page: Loading map: Walkthrough.umap
+[2017.08.01-09.14.43:024][459]MapCheck: New page: Map Check
+[2017.08.01-09.14.43:024][459]LightingResults: New page: Lighting Build
+[2017.08.01-09.14.43:135][459]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.14.43:139][459]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.01-09.14.43:194][459]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-09.14.43:271][459]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.9ms to complete.
+[2017.08.01-09.14.43:272][459]LogFileHelpers: Loading map 'Walkthrough' took 0.293
+[2017.08.01-09.14.51:016][305]Cmd: MAP LOAD FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-09.14.51:016][305]LightingResults: New page: Lighting Build
+[2017.08.01-09.14.51:017][305]LoadErrors: New page: Loading map: Walkthrough.umap
+[2017.08.01-09.14.51:017][305]MapCheck: New page: Map Check
+[2017.08.01-09.14.51:017][305]LightingResults: New page: Lighting Build
+[2017.08.01-09.14.51:075][305]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.14.51:078][305]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.01-09.14.51:125][305]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-09.14.51:209][305]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.386ms to complete.
+[2017.08.01-09.14.51:210][305]LogFileHelpers: Loading map 'Walkthrough' took 0.196
+[2017.08.01-09.14.56:428][860]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.14.56:449][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.14.56:449][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.14.56:449][860]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:14:56 PM)
+[2017.08.01-09.14.56:449][860]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.14.56:452][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002792s)
+[2017.08.01-09.14.56:452][860]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.14.56:452][860]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2017.08.01-09.14.56:453][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003747s)
+[2017.08.01-09.14.56:494][860]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.14.56:506][860]LogInit: FAudioDevice initialized.
+[2017.08.01-09.14.56:543][860]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.14.56:551][860]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-14.44.56
+[2017.08.01-09.14.56:552][860]LogWorld: Bringing up level for play took: 0.002102
+[2017.08.01-09.14.56:553][860]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.14.56:553][860]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.14.56:553][860]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.14.56:554][860]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.14.56:554][860]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.813
+[2017.08.01-09.14.56:555][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.14.57:541][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.14.57:575][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.15.23:682][875]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.15.23:951][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.15.23:969][875]LogSavePackage: Save=17.06ms
+[2017.08.01-09.15.23:969][875]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUIFD9524EF4C89721ACE0D598CF2192984.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.15.23:978][875]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.15.23:983][875]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.16.02:027][973]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.16.02:200][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.16.02:221][973]LogSavePackage: Save=19.38ms
+[2017.08.01-09.16.02:221][973]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUIC6A803894928DEB3979F57B7F75056B5.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.16.02:230][973]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.16.02:233][973]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.16.02:400][990]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.16.02:566][990]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.16.28:390][862]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.16.28:564][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.16.28:584][862]LogSavePackage: Save=19.29ms
+[2017.08.01-09.16.28:584][862]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUIC22C15DD4CE7C090BB45D78B387219C3.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.16.28:593][862]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.16.28:598][862]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.17.58:742][641]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.17.58:926][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.17.58:948][641]LogSavePackage: Save=20.20ms
+[2017.08.01-09.17.58:948][641]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI032CC3F8474DC2804721C281954A5E23.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.17.58:958][641]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.17.58:965][641]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.19.07:884][782]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.19.08:059][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.19.08:086][782]LogSavePackage: Save=25.62ms
+[2017.08.01-09.19.08:086][782]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI63732A684447E6719EC9C2AD5EFD48A1.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.19.08:097][782]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.19.08:104][782]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.19.08:425][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.19.08:451][811]LogSavePackage: Save=24.12ms
+[2017.08.01-09.19.08:451][811]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI584E8C4E43CF428A5153EDBE5AA5097D.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.19.08:460][811]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.19.09:553][938]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.19.09:575][938]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.19.09:575][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.19.09:575][938]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:19:09 PM)
+[2017.08.01-09.19.09:575][938]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.19.09:578][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002934s)
+[2017.08.01-09.19.09:579][938]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.19.09:579][938]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2017.08.01-09.19.09:579][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004000s)
+[2017.08.01-09.19.09:618][938]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.19.09:630][938]LogInit: FAudioDevice initialized.
+[2017.08.01-09.19.09:662][938]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.19.09:666][938]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-14.49.09
+[2017.08.01-09.19.09:666][938]LogWorld: Bringing up level for play took: 0.001145
+[2017.08.01-09.19.09:667][938]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.19.09:667][938]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.19.09:667][938]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.19.09:668][938]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.19.09:668][938]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.279
+[2017.08.01-09.19.09:669][938]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.19.10:600][ 45]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.19.10:629][ 45]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.19.45:893][ 64]BlueprintLog: New page: Compile WalkthoughUI
+[2017.08.01-09.19.46:106][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.19.46:132][ 64]LogSavePackage: Save=25.13ms
+[2017.08.01-09.19.46:132][ 64]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI697C62C14EDD96A5DC33D291C472BAC2.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.19.46:142][ 64]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.19.46:145][ 64]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.19.46:640][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WalkthoughUI" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset" SILENT=true
+[2017.08.01-09.19.46:666][115]LogSavePackage: Save=24.98ms
+[2017.08.01-09.19.46:666][115]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthoughUI6C8F83664DA6B9CEA60205B00C397E74.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset'
+[2017.08.01-09.19.46:675][115]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/UI/WalkthoughUI.uasset
+[2017.08.01-09.19.47:539][216]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.19.47:560][216]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.19.47:560][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.19.47:560][216]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:19:47 PM)
+[2017.08.01-09.19.47:560][216]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.19.47:563][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002528s)
+[2017.08.01-09.19.47:563][216]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.19.47:563][216]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2017.08.01-09.19.47:563][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003478s)
+[2017.08.01-09.19.47:597][216]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.19.47:609][216]LogInit: FAudioDevice initialized.
+[2017.08.01-09.19.47:642][216]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.19.47:647][216]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-14.49.47
+[2017.08.01-09.19.47:647][216]LogWorld: Bringing up level for play took: 0.001591
+[2017.08.01-09.19.47:648][216]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.19.47:648][216]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.19.47:648][216]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.19.47:650][216]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.19.47:650][216]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.257
+[2017.08.01-09.19.47:650][216]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.19.49:309][408]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.19.49:341][408]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.21.52:124][422]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.21.53:510][555]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.21.53:528][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.21.53:528][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.21.53:528][555]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:21:53 PM)
+[2017.08.01-09.21.53:528][555]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.21.53:531][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002663s)
+[2017.08.01-09.21.53:532][555]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.21.53:532][555]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2017.08.01-09.21.53:532][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003716s)
+[2017.08.01-09.21.53:568][555]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.21.53:582][555]LogInit: FAudioDevice initialized.
+[2017.08.01-09.21.53:610][555]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.21.53:615][555]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-14.51.53
+[2017.08.01-09.21.53:615][555]LogWorld: Bringing up level for play took: 0.001427
+[2017.08.01-09.21.53:616][555]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.21.53:616][555]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.21.53:616][555]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.21.53:617][555]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.21.53:617][555]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.214
+[2017.08.01-09.21.53:617][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.21.57:933][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.21.57:969][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.05:793][441]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.22.06:843][543]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.22.06:862][543]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.06:862][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.22.06:862][543]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:22:06 PM)
+[2017.08.01-09.22.06:862][543]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.22.06:866][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003236s)
+[2017.08.01-09.22.06:866][543]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.22.06:867][543]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.08.01-09.22.06:867][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004231s)
+[2017.08.01-09.22.06:912][543]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.22.06:923][543]LogInit: FAudioDevice initialized.
+[2017.08.01-09.22.06:958][543]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.22.06:963][543]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-14.52.06
+[2017.08.01-09.22.06:963][543]LogWorld: Bringing up level for play took: 0.001316
+[2017.08.01-09.22.06:964][543]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.22.06:964][543]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.22.06:964][543]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.22.06:966][543]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.22.06:966][543]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.44
+[2017.08.01-09.22.06:966][543]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.14:534][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.14:568][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.21:465][225]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.22.22:567][332]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.22.22:587][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.22:587][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.22.22:587][332]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:22:22 PM)
+[2017.08.01-09.22.22:587][332]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.22.22:590][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002486s)
+[2017.08.01-09.22.22:590][332]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.22.22:590][332]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2017.08.01-09.22.22:591][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003519s)
+[2017.08.01-09.22.22:637][332]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.22.22:645][332]LogInit: FAudioDevice initialized.
+[2017.08.01-09.22.22:680][332]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.22.22:684][332]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-14.52.22
+[2017.08.01-09.22.22:685][332]LogWorld: Bringing up level for play took: 0.001377
+[2017.08.01-09.22.22:686][332]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.22.22:686][332]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.22.22:686][332]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.22.22:687][332]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.22.22:688][332]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.719
+[2017.08.01-09.22.22:688][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.27:146][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.27:185][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.30:304][194]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.22.31:933][362]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.22.31:964][362]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.31:964][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.22.31:964][362]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:22:31 PM)
+[2017.08.01-09.22.31:964][362]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.22.31:968][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003099s)
+[2017.08.01-09.22.31:968][362]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.22.31:969][362]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2017.08.01-09.22.31:969][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004219s)
+[2017.08.01-09.22.32:006][362]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.22.32:015][362]LogInit: FAudioDevice initialized.
+[2017.08.01-09.22.32:049][362]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.22.32:055][362]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-14.52.32
+[2017.08.01-09.22.32:055][362]LogWorld: Bringing up level for play took: 0.001339
+[2017.08.01-09.22.32:056][362]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.22.32:056][362]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.22.32:056][362]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.22.32:058][362]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.22.32:058][362]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.651
+[2017.08.01-09.22.32:058][362]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.42:008][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.42:043][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.43:141][637]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.22.43:159][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.43:159][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.22.43:159][637]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:22:43 PM)
+[2017.08.01-09.22.43:159][637]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.22.43:161][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002607s)
+[2017.08.01-09.22.43:162][637]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.22.43:162][637]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2017.08.01-09.22.43:162][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003573s)
+[2017.08.01-09.22.43:207][637]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.22.43:214][637]LogInit: FAudioDevice initialized.
+[2017.08.01-09.22.43:246][637]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.22.43:252][637]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-14.52.43
+[2017.08.01-09.22.43:253][637]LogWorld: Bringing up level for play took: 0.001403
+[2017.08.01-09.22.43:253][637]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.22.43:253][637]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.22.43:254][637]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.22.43:255][637]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.22.43:255][637]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.153
+[2017.08.01-09.22.43:255][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.43:635][676]Cmd: LevelEditor.ToggleImmersive
+[2017.08.01-09.22.43:782][677]LogRenderer: Reallocating scene render targets to support 1384x900 NumSamples 1 (Frame:41).
+[2017.08.01-09.22.43:835][678]LogRenderer: Reallocating scene render targets to support 1920x1040 NumSamples 1 (Frame:43).
+[2017.08.01-09.22.50:938][509]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.22.51:001][509]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.24.21:361][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Walkthrough" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.01-09.24.21:573][921]LogSavePackage: Save=166.17ms
+[2017.08.01-09.24.21:573][921]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/Walkthrough0A28F7F141963DA5C3F34FB83EE3E870.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap'
+[2017.08.01-09.24.21:597][921]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap
+[2017.08.01-09.24.21:614][921]LogFileHelpers: Saving map 'Walkthrough' took 0.344
+[2017.08.01-09.24.21:623][921]Cmd: MAP LOAD FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-09.24.21:623][921]LightingResults: New page: Lighting Build
+[2017.08.01-09.24.21:624][921]LoadErrors: New page: Loading map: Walkthrough.umap
+[2017.08.01-09.24.21:668][921]MapCheck: New page: Map Check
+[2017.08.01-09.24.21:668][921]LightingResults: New page: Lighting Build
+[2017.08.01-09.24.21:747][921]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.24.21:751][921]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.01-09.24.21:804][921]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-09.24.21:879][921]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.44ms to complete.
+[2017.08.01-09.24.21:880][921]LogFileHelpers: Loading map 'Walkthrough' took 0.258
+[2017.08.01-09.24.23:746][128]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.24.23:775][128]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.24.23:775][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.24.23:775][128]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:24:23 PM)
+[2017.08.01-09.24.23:775][128]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.24.23:779][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003320s)
+[2017.08.01-09.24.23:779][128]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.24.23:779][128]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2017.08.01-09.24.23:780][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004487s)
+[2017.08.01-09.24.23:818][128]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.24.23:827][128]LogInit: FAudioDevice initialized.
+[2017.08.01-09.24.23:857][128]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.24.23:863][128]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-14.54.23
+[2017.08.01-09.24.23:863][128]LogWorld: Bringing up level for play took: 0.001223
+[2017.08.01-09.24.23:864][128]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.24.23:864][128]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.24.23:864][128]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.24.23:865][128]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.24.23:865][128]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.448
+[2017.08.01-09.24.23:866][128]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.24.33:053][201]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.24.33:085][201]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.24.57:241][ 27]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.24.57:270][ 27]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.24.57:270][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.24.57:270][ 27]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:24:57 PM)
+[2017.08.01-09.24.57:271][ 27]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.24.57:275][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004181s)
+[2017.08.01-09.24.57:276][ 27]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.24.57:276][ 27]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2017.08.01-09.24.57:276][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.005531s)
+[2017.08.01-09.24.57:325][ 27]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.24.57:334][ 27]LogInit: FAudioDevice initialized.
+[2017.08.01-09.24.57:369][ 27]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.24.57:376][ 27]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-14.54.57
+[2017.08.01-09.24.57:376][ 27]LogWorld: Bringing up level for play took: 0.001512
+[2017.08.01-09.24.57:377][ 27]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.24.57:377][ 27]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.24.57:377][ 27]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.24.57:378][ 27]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.24.57:378][ 27]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.045
+[2017.08.01-09.24.57:379][ 27]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.25.03:860][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.25.03:895][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.26.06:058][423]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.01-09.26.06:123][424]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PreSaleFrameWork
+[2017.08.01-09.26.06:123][424]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.01-09.26.06:123][424]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.01-09.26.06:123][424]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.01-09.26.06:123][424]LogTemp: BranchPath = INTEL-PC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = INTEL-PC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.01-09.26.06:123][424]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Intel\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.01-09.27.01:273][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Walkthrough" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.01-09.27.01:475][960]LogSavePackage: Save=162.87ms
+[2017.08.01-09.27.01:475][960]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/Walkthrough5DFA27D0462FA85C60EDD39D27DBED10.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap'
+[2017.08.01-09.27.01:496][960]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap
+[2017.08.01-09.28.27:358][694]BlueprintLog: New page: Compile FurdoPawn
+[2017.08.01-09.28.27:772][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FurdoPawn" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset" SILENT=true
+[2017.08.01-09.28.27:800][694]LogSavePackage: Save=27.04ms
+[2017.08.01-09.28.27:800][694]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoPawn676C56134864AA4E7E432D8382E83BCB.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset'
+[2017.08.01-09.28.27:811][694]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset
+[2017.08.01-09.28.45:189][595]BlueprintLog: New page: Compile FurdoPawn
+[2017.08.01-09.28.45:603][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FurdoPawn" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset" SILENT=true
+[2017.08.01-09.28.45:632][595]LogSavePackage: Save=26.65ms
+[2017.08.01-09.28.45:632][595]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoPawnB6827FCE42221235F6B8AE9DF04B1125.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset'
+[2017.08.01-09.28.45:645][595]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset
+[2017.08.01-09.28.55:305][668]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.29.00:454][280]BlueprintLog: New page: Compile PreSaleGameMode
+[2017.08.01-09.29.00:733][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PreSaleGameMode" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset" SILENT=true
+[2017.08.01-09.29.00:742][280]LogSavePackage: Save=7.24ms
+[2017.08.01-09.29.00:742][280]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/PreSaleGameModeE997D38941E77C401C0C7F863CD2E32A.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset'
+[2017.08.01-09.29.00:750][280]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset
+[2017.08.01-09.29.01:045][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PreSaleGameMode" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset" SILENT=true
+[2017.08.01-09.29.01:053][304]LogSavePackage: Save=6.88ms
+[2017.08.01-09.29.01:053][304]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/PreSaleGameMode1A4991D54434D60C859213A479BFDC29.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset'
+[2017.08.01-09.29.01:060][304]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset
+[2017.08.01-09.29.32:523][905]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.29.32:530][905]LogBlueprint:Error: [Compiler PersistentLevel.Walkthrough] Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2017.08.01-09.29.32:796][905]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2017.08.01-09.29.32:796][905]LogBlueprint:Warning: [Compiler PersistentLevel.Walkthrough] Warning [2046.42] Compile of PersistentLevel.Walkthrough failed. 1 Fatal Issue(s) 0 Warning(s) [in 273 ms] (/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough)
+[2017.08.01-09.29.43:017][804]Cmd: DELETE
+[2017.08.01-09.29.43:017][804]Cmd: ACTOR DELETE
+[2017.08.01-09.29.43:018][804]LogEditorActor: Deleted Actor: FurdoPawn_C
+[2017.08.01-09.29.43:084][804]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2017.08.01-09.29.57:548][511]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.30.13:938][381]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.30.19:852][ 71]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.30.27:445][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Walkthrough" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.01-09.30.27:658][909]LogSavePackage: Save=169.96ms
+[2017.08.01-09.30.27:658][909]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/WalkthroughB3D4ACFE4F371BB9ED34239059A4F35E.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap'
+[2017.08.01-09.30.27:683][909]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Walkthrough.umap
+[2017.08.01-09.30.27:703][909]LogFileHelpers: Saving map 'Walkthrough' took 0.342
+[2017.08.01-09.30.45:058][764]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.30.45:083][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.30.45:083][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.30.45:083][764]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:30:45 PM)
+[2017.08.01-09.30.45:083][764]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.30.45:086][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003160s)
+[2017.08.01-09.30.45:087][764]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.30.45:087][764]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2017.08.01-09.30.45:087][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004166s)
+[2017.08.01-09.30.45:152][764]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.30.45:162][764]LogInit: FAudioDevice initialized.
+[2017.08.01-09.30.45:194][764]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.30.45:199][764]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.00.45
+[2017.08.01-09.30.45:200][764]LogWorld: Bringing up level for play took: 0.001717
+[2017.08.01-09.30.45:200][764]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.30.45:200][764]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.30.45:200][764]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.30.45:202][764]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.30.45:202][764]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.278
+[2017.08.01-09.30.45:202][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.30.46:407][897]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.30.46:492][897]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.30.48:879][ 44]LogEditorViewport: Clicking on Actor (LMB): FurdoPawn_C (FurdoPawn)
+[2017.08.01-09.30.52:062][238]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.30.52:080][238]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.30.52:080][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.30.52:081][238]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:30:52 PM)
+[2017.08.01-09.30.52:081][238]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.30.52:084][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003219s)
+[2017.08.01-09.30.52:085][238]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.30.52:085][238]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2017.08.01-09.30.52:085][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004217s)
+[2017.08.01-09.30.52:154][238]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.30.52:164][238]LogInit: FAudioDevice initialized.
+[2017.08.01-09.30.52:196][238]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.30.52:203][238]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.00.52
+[2017.08.01-09.30.52:204][238]LogWorld: Bringing up level for play took: 0.002477
+[2017.08.01-09.30.52:205][238]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.30.52:205][238]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.30.52:205][238]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.30.52:207][238]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.30.52:207][238]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.726
+[2017.08.01-09.30.52:207][238]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.30.53:619][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.30.53:700][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.30.57:326][646]LogEditorViewport: Clicking on Actor (LMB): FurdoPawn_C (FurdoPawn)
+[2017.08.01-09.31.03:686][143]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.31.03:707][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.31.03:707][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.31.03:707][143]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:31:03 PM)
+[2017.08.01-09.31.03:707][143]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.31.03:710][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003047s)
+[2017.08.01-09.31.03:711][143]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.31.03:711][143]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2017.08.01-09.31.03:711][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004082s)
+[2017.08.01-09.31.03:788][143]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.31.03:799][143]LogInit: FAudioDevice initialized.
+[2017.08.01-09.31.03:830][143]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.31.03:836][143]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.01.03
+[2017.08.01-09.31.03:837][143]LogWorld: Bringing up level for play took: 0.001671
+[2017.08.01-09.31.03:837][143]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.31.03:837][143]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.31.03:837][143]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.31.03:839][143]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.31.03:839][143]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.357
+[2017.08.01-09.31.03:839][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.31.04:592][225]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.31.04:670][225]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.31.07:442][421]LogEditorViewport: Clicking on Actor (LMB): FurdoPawn_C (FurdoPawn)
+[2017.08.01-09.31.20:810][784]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.31.21:881][857]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.31.21:900][857]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.31.21:900][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.31.21:900][857]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:31:21 PM)
+[2017.08.01-09.31.21:900][857]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.31.21:904][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003351s)
+[2017.08.01-09.31.21:905][857]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.31.21:905][857]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2017.08.01-09.31.21:905][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004357s)
+[2017.08.01-09.31.21:974][857]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.31.21:984][857]LogInit: FAudioDevice initialized.
+[2017.08.01-09.31.22:015][857]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.31.22:021][857]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.01.22
+[2017.08.01-09.31.22:021][857]LogWorld: Bringing up level for play took: 0.001863
+[2017.08.01-09.31.22:022][857]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.31.22:022][857]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.31.22:022][857]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.31.22:024][857]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.31.22:024][857]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.54
+[2017.08.01-09.31.22:024][857]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.31.22:710][929]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.31.22:812][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.31.24:865][ 53]LogEditorViewport: Clicking on Actor (LMB): FurdoPawn_C (FurdoPawn)
+[2017.08.01-09.31.55:698][372]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.32.37:097][717]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.32.37:117][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.32.37:117][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.32.37:117][717]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:32:37 PM)
+[2017.08.01-09.32.37:117][717]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.32.37:120][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003163s)
+[2017.08.01-09.32.37:121][717]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.32.37:121][717]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2017.08.01-09.32.37:121][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004192s)
+[2017.08.01-09.32.37:194][717]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.32.37:204][717]LogInit: FAudioDevice initialized.
+[2017.08.01-09.32.37:240][717]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.32.37:247][717]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.02.37
+[2017.08.01-09.32.37:248][717]LogWorld: Bringing up level for play took: 0.002702
+[2017.08.01-09.32.37:249][717]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.32.37:249][717]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.32.37:249][717]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.32.37:251][717]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.32.37:252][717]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.239
+[2017.08.01-09.32.37:252][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.32.46:567][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.32.46:654][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.34.16:877][306]BlueprintLog: New page: Compile SpectatorPawn
+[2017.08.01-09.34.17:168][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SpectatorPawn" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/SpectatorPawn.uasset" SILENT=true
+[2017.08.01-09.34.17:179][306]LogSavePackage: Save=9.82ms
+[2017.08.01-09.34.17:179][306]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/SpectatorPawnB7DB21F346FDD9B951D17A8B9767D3C2.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/SpectatorPawn.uasset'
+[2017.08.01-09.34.17:190][306]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/SpectatorPawn.uasset
+[2017.08.01-09.34.24:488][  0]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.34.33:120][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FurdoSpectator" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoSpectator.uasset" SILENT=true
+[2017.08.01-09.34.33:130][772]LogSavePackage: Save=9.81ms
+[2017.08.01-09.34.33:130][772]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoSpectatorA3F23B404A8278AD04D6A3B7253E8BB5.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoSpectator.uasset'
+[2017.08.01-09.34.33:139][772]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoSpectator.uasset
+[2017.08.01-09.34.33:141][772]LogMetaData: Removing '/Game/Blueprints/FurdoSpectator.FurdoSpectator:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/SpectatorPawn.PackageMetaData'
+[2017.08.01-09.34.33:141][772]LogMetaData: Removing '/Game/Blueprints/FurdoSpectator.SKEL_FurdoSpectator_C' ref from Metadata '/Game/Blueprints/SpectatorPawn.PackageMetaData'
+[2017.08.01-09.34.33:141][772]LogMetaData: Removing '/Game/Blueprints/FurdoSpectator.FurdoSpectator_C' ref from Metadata '/Game/Blueprints/SpectatorPawn.PackageMetaData'
+[2017.08.01-09.34.33:141][772]LogMetaData: Removing '/Game/Blueprints/FurdoSpectator.FurdoSpectator:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/SpectatorPawn.PackageMetaData'
+[2017.08.01-09.34.33:141][772]LogMetaData: Removing '/Game/Blueprints/FurdoSpectator.FurdoSpectator:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/SpectatorPawn.PackageMetaData'
+[2017.08.01-09.34.33:141][772]LogMetaData: Removing '/Game/Blueprints/FurdoSpectator.FurdoSpectator:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/SpectatorPawn.PackageMetaData'
+[2017.08.01-09.34.33:168][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FurdoSpectator" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoSpectator.uasset" SILENT=true
+[2017.08.01-09.34.33:179][772]LogSavePackage: Save=9.17ms
+[2017.08.01-09.34.33:179][772]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoSpectator91D9917E42DBA58477BA81820CF98A0D.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoSpectator.uasset'
+[2017.08.01-09.34.33:188][772]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoSpectator.uasset
+[2017.08.01-09.34.40:288][462]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.34.45:621][804]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.01-09.34.45:672][805]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PreSaleFrameWork
+[2017.08.01-09.34.45:672][805]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.01-09.34.45:672][805]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.01-09.34.45:672][805]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.01-09.34.45:672][805]LogTemp: BranchPath = INTEL-PC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = INTEL-PC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.01-09.34.45:683][806]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Intel\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.01-09.34.49:491][246]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.34.52:287][573]BlueprintLog: New page: Compile PreSaleGameMode
+[2017.08.01-09.34.52:451][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PreSaleGameMode" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset" SILENT=true
+[2017.08.01-09.34.52:460][573]LogSavePackage: Save=7.22ms
+[2017.08.01-09.34.52:460][573]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/PreSaleGameMode431275BB430A7858C62A638145D88662.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset'
+[2017.08.01-09.34.52:469][573]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset
+[2017.08.01-09.34.53:484][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PreSaleGameMode" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset" SILENT=true
+[2017.08.01-09.34.53:493][682]LogSavePackage: Save=7.29ms
+[2017.08.01-09.34.53:493][682]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/PreSaleGameMode3D7F7F8C427A27B4EF93E1A87F95491E.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset'
+[2017.08.01-09.34.53:502][682]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset
+[2017.08.01-09.34.55:075][829]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.34.55:097][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.34.55:098][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.34.55:098][829]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:34:55 PM)
+[2017.08.01-09.34.55:098][829]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.34.55:101][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003416s)
+[2017.08.01-09.34.55:102][829]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.34.55:102][829]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2017.08.01-09.34.55:102][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004386s)
+[2017.08.01-09.34.55:172][829]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.34.55:186][829]LogInit: FAudioDevice initialized.
+[2017.08.01-09.34.55:225][829]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.34.55:232][829]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.04.55
+[2017.08.01-09.34.55:233][829]LogWorld: Bringing up level for play took: 0.002076
+[2017.08.01-09.34.55:234][829]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.34.55:234][829]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.34.55:234][829]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.34.55:236][829]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.34.55:236][829]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.266
+[2017.08.01-09.34.55:236][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.35.23:500][838]LogEditorViewport: Clicking on Actor (LMB): FurdoPawn_C (FurdoPawn)
+[2017.08.01-09.35.23:919][849]LogEditorViewport: Clicking on Actor (LMB): FurdoPawn_C (FurdoPawn)
+[2017.08.01-09.35.28:636][148]Cmd: SELECT NONE
+[2017.08.01-09.35.33:496][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.35.33:566][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.35.35:291][662]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.08.01-09.35.38:992][858]LogEditorViewport: Clicking on Actor (LMB): FurdoPawn_C (FurdoPawn)
+[2017.08.01-09.35.39:330][876]Cmd: DELETE
+[2017.08.01-09.35.39:330][876]Cmd: ACTOR DELETE
+[2017.08.01-09.35.41:198][876]LogEditorActor: Deleted Actor: FurdoPawn_C
+[2017.08.01-09.35.41:275][876]LogEditorActor: Deleted 1 Actors (1.945 secs)
+[2017.08.01-09.35.42:269][962]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.35.42:292][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.35.42:292][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.35.42:292][962]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:35:42 PM)
+[2017.08.01-09.35.42:292][962]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.35.42:295][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003089s)
+[2017.08.01-09.35.42:296][962]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.35.42:296][962]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2017.08.01-09.35.42:296][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004114s)
+[2017.08.01-09.35.42:336][962]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.35.42:348][962]LogInit: FAudioDevice initialized.
+[2017.08.01-09.35.42:378][962]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.35.42:385][962]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.05.42
+[2017.08.01-09.35.42:385][962]LogWorld: Bringing up level for play took: 0.001623
+[2017.08.01-09.35.42:386][962]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.35.42:386][962]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.35.42:386][962]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.35.42:387][962]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.35.42:387][962]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.881
+[2017.08.01-09.35.42:388][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.35.45:297][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.35.45:333][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.35.58:782][788]BlueprintLog: New page: Compile FurdoPawn
+[2017.08.01-09.35.59:008][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FurdoPawn" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset" SILENT=true
+[2017.08.01-09.35.59:035][788]LogSavePackage: Save=25.81ms
+[2017.08.01-09.35.59:035][788]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoPawn5804B3A44BFAC6EA6EEAF795E39D0C0B.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset'
+[2017.08.01-09.35.59:048][788]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset
+[2017.08.01-09.36.00:771][973]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.36.00:793][973]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.36.00:793][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.36.00:793][973]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:36:00 PM)
+[2017.08.01-09.36.00:793][973]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.36.00:796][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002856s)
+[2017.08.01-09.36.00:797][973]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.36.00:797][973]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2017.08.01-09.36.00:797][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003877s)
+[2017.08.01-09.36.00:839][973]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.36.00:849][973]LogInit: FAudioDevice initialized.
+[2017.08.01-09.36.00:879][973]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.36.00:886][973]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.06.00
+[2017.08.01-09.36.00:886][973]LogWorld: Bringing up level for play took: 0.001125
+[2017.08.01-09.36.00:887][973]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.36.00:887][973]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.36.00:887][973]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.36.00:888][973]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.36.00:889][973]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.62
+[2017.08.01-09.36.00:889][973]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.36.07:678][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.36.07:709][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.36.12:764][313]BlueprintLog: New page: Compile FurdoPawn
+[2017.08.01-09.36.12:993][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FurdoPawn" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset" SILENT=true
+[2017.08.01-09.36.13:018][313]LogSavePackage: Save=24.04ms
+[2017.08.01-09.36.13:018][313]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoPawnD8F6CAF243C4436EBE8090A8FEE5E49D.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset'
+[2017.08.01-09.36.13:029][313]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset
+[2017.08.01-09.37.17:413][595]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.01-09.37.17:918][631]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.37.17:941][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.37.17:941][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.37.17:942][631]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:37:17 PM)
+[2017.08.01-09.37.17:942][631]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.37.17:945][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002906s)
+[2017.08.01-09.37.17:945][631]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.37.17:946][631]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2017.08.01-09.37.17:946][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003889s)
+[2017.08.01-09.37.19:963][631]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.37.19:974][631]LogInit: FAudioDevice initialized.
+[2017.08.01-09.37.20:013][631]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.37.20:020][631]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.07.20
+[2017.08.01-09.37.20:020][631]LogWorld: Bringing up level for play took: 0.001850
+[2017.08.01-09.37.20:022][631]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.37.20:022][631]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.37.20:022][631]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.37.20:024][631]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.37.20:024][631]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 2.509
+[2017.08.01-09.37.20:024][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.37.21:178][746]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.37.21:222][746]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.37.23:213][894]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.01-09.37.24:652][ 25]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.01-09.37.25:241][ 81]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.37.25:263][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.37.25:263][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.37.25:263][ 81]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:37:25 PM)
+[2017.08.01-09.37.25:263][ 81]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.37.25:267][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003046s)
+[2017.08.01-09.37.25:267][ 81]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.37.25:267][ 81]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2017.08.01-09.37.25:268][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004118s)
+[2017.08.01-09.37.25:307][ 81]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.37.25:314][ 81]LogInit: FAudioDevice initialized.
+[2017.08.01-09.37.25:345][ 81]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.37.25:348][ 81]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.07.25
+[2017.08.01-09.37.25:348][ 81]LogWorld: Bringing up level for play took: 0.001206
+[2017.08.01-09.37.25:349][ 81]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.37.25:349][ 81]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.37.25:349][ 81]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.37.25:350][ 81]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.37.25:350][ 81]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.165
+[2017.08.01-09.37.25:351][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.37.27:412][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.37.27:456][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.38.34:822][862]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.38.34:846][862]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.38.34:846][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.38.34:846][862]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:38:34 PM)
+[2017.08.01-09.38.34:846][862]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.38.34:849][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002959s)
+[2017.08.01-09.38.34:850][862]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.38.34:850][862]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2017.08.01-09.38.34:850][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.004032s)
+[2017.08.01-09.38.34:891][862]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.38.34:903][862]LogInit: FAudioDevice initialized.
+[2017.08.01-09.38.34:938][862]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.38.34:945][862]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.08.34
+[2017.08.01-09.38.34:945][862]LogWorld: Bringing up level for play took: 0.001453
+[2017.08.01-09.38.34:946][862]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.38.34:946][862]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.38.34:946][862]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.38.34:948][862]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.38.34:948][862]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.573
+[2017.08.01-09.38.34:949][862]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.38.45:557][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.38.45:608][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.39.31:762][876]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.01-09.39.31:849][878]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PreSaleFrameWork
+[2017.08.01-09.39.31:849][878]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.01-09.39.31:849][878]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.01-09.39.31:849][878]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.01-09.39.31:853][878]LogTemp: BranchPath = INTEL-PC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = INTEL-PC/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.01-09.39.31:868][878]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Intel\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.01-09.39.42:134][959]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.39.43:676][140]BlueprintLog: New page: Compile PreSaleGameMode
+[2017.08.01-09.39.43:941][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PreSaleGameMode" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset" SILENT=true
+[2017.08.01-09.39.43:949][140]LogSavePackage: Save=6.82ms
+[2017.08.01-09.39.43:949][140]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/PreSaleGameModeB212D70547909E22A27B6D940D1E76EA.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset'
+[2017.08.01-09.39.43:958][140]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset
+[2017.08.01-09.39.45:243][261]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.39.45:264][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.39.45:264][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.39.45:265][261]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:39:45 PM)
+[2017.08.01-09.39.45:265][261]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.39.45:268][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002851s)
+[2017.08.01-09.39.45:268][261]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.39.45:268][261]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2017.08.01-09.39.45:269][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003839s)
+[2017.08.01-09.39.45:309][261]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.39.45:322][261]LogInit: FAudioDevice initialized.
+[2017.08.01-09.39.45:357][261]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.39.45:363][261]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.09.45
+[2017.08.01-09.39.45:364][261]LogWorld: Bringing up level for play took: 0.001360
+[2017.08.01-09.39.45:365][261]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.39.45:365][261]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.39.45:365][261]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.39.45:366][261]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.39.45:366][261]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.162
+[2017.08.01-09.39.45:366][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.39.47:805][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.39.47:854][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.39.51:638][970]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.01-09.39.55:431][417]BlueprintLog: New page: Compile PreSaleGameMode
+[2017.08.01-09.39.55:706][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PreSaleGameMode" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset" SILENT=true
+[2017.08.01-09.39.55:720][417]LogSavePackage: Save=11.61ms
+[2017.08.01-09.39.55:720][417]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/PreSaleGameMode45D66C524BA7D6B63A02459967A6E15E.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset'
+[2017.08.01-09.39.55:729][417]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset
+[2017.08.01-09.39.56:690][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PreSaleGameMode" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset" SILENT=true
+[2017.08.01-09.39.56:698][523]LogSavePackage: Save=6.81ms
+[2017.08.01-09.39.56:698][523]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/PreSaleGameModeB2A306254A19C11FD64F84BB48E9CF08.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset'
+[2017.08.01-09.39.56:706][523]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/PreSaleGameMode.uasset
+[2017.08.01-09.40.51:902][339]BlueprintLog: New page: Compile FurdoPawn
+[2017.08.01-09.40.51:914][339]LogBlueprint:Warning: [Compiler PersistentLevel.Walkthrough] Warning Node  Unknown  is not referencing a valid level actor
+[2017.08.01-09.40.52:307][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FurdoPawn" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset" SILENT=true
+[2017.08.01-09.40.52:332][339]LogSavePackage: Save=23.55ms
+[2017.08.01-09.40.52:332][339]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoPawn21FC6DE9415E2279CC2A19ACE2B5B108.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset'
+[2017.08.01-09.40.52:343][339]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset
+[2017.08.01-09.40.53:642][470]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.40.53:664][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.40.53:664][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.40.53:664][470]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:40:53 PM)
+[2017.08.01-09.40.53:664][470]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.40.53:667][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002915s)
+[2017.08.01-09.40.53:668][470]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.40.53:668][470]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2017.08.01-09.40.53:668][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003922s)
+[2017.08.01-09.40.53:711][470]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.40.53:722][470]LogInit: FAudioDevice initialized.
+[2017.08.01-09.40.53:755][470]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.40.53:762][470]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.10.53
+[2017.08.01-09.40.53:762][470]LogWorld: Bringing up level for play took: 0.001327
+[2017.08.01-09.40.53:763][470]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.40.53:763][470]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.40.53:763][470]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.40.53:765][470]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.40.53:765][470]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.231
+[2017.08.01-09.40.53:765][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.02:630][496]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.02:672][496]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.20:833][511]BlueprintLog: New page: Compile FurdoPawn
+[2017.08.01-09.41.21:245][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FurdoPawn" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset" SILENT=true
+[2017.08.01-09.41.21:270][511]LogSavePackage: Save=23.38ms
+[2017.08.01-09.41.21:270][511]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoPawnB60E5AED4FB290542ADEDCA339DCF331.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset'
+[2017.08.01-09.41.21:281][511]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset
+[2017.08.01-09.41.23:025][679]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.41.23:045][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.23:045][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.41.23:045][679]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:41:23 PM)
+[2017.08.01-09.41.23:045][679]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.41.23:048][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002902s)
+[2017.08.01-09.41.23:049][679]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.41.23:049][679]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2017.08.01-09.41.23:049][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003851s)
+[2017.08.01-09.41.23:086][679]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.41.23:099][679]LogInit: FAudioDevice initialized.
+[2017.08.01-09.41.23:132][679]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.41.23:139][679]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.11.23
+[2017.08.01-09.41.23:139][679]LogWorld: Bringing up level for play took: 0.001448
+[2017.08.01-09.41.23:140][679]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.41.23:141][679]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.41.23:141][679]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.41.23:142][679]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.41.23:142][679]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.394
+[2017.08.01-09.41.23:143][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.24:562][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.24:608][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.31:867][676]BlueprintLog: New page: Compile FurdoPawn
+[2017.08.01-09.41.32:293][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FurdoPawn" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset" SILENT=true
+[2017.08.01-09.41.32:319][676]LogSavePackage: Save=23.67ms
+[2017.08.01-09.41.32:319][676]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoPawn47CFABB84FC448407B41EFA71FB1E8FE.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset'
+[2017.08.01-09.41.32:330][676]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset
+[2017.08.01-09.41.38:198][327]BlueprintLog: New page: Compile Walkthrough
+[2017.08.01-09.41.39:703][466]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.41.39:725][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.39:725][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.41.39:725][466]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:41:39 PM)
+[2017.08.01-09.41.39:725][466]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.41.39:728][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002646s)
+[2017.08.01-09.41.39:729][466]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.41.39:729][466]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2017.08.01-09.41.39:729][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003625s)
+[2017.08.01-09.41.39:779][466]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.41.39:788][466]LogInit: FAudioDevice initialized.
+[2017.08.01-09.41.39:822][466]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.41.39:827][466]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.11.39
+[2017.08.01-09.41.39:827][466]LogWorld: Bringing up level for play took: 0.001457
+[2017.08.01-09.41.39:828][466]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.41.39:828][466]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.41.39:828][466]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.41.39:829][466]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.41.39:829][466]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough 0.291
+[2017.08.01-09.41.39:829][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.49:388][580]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.49:436][580]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.53:300][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FurdoPawn" FILE="E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset" SILENT=true
+[2017.08.01-09.41.53:314][ 32]LogSavePackage: Save=13.06ms
+[2017.08.01-09.41.53:315][ 32]LogSavePackage: Moving 'E:/UnrealProjects/PreSaleFrameWork/Saved/FurdoPawn4D5EA4B24F9FCB8383F6B0B6B61F98E3.tmp' to 'E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset'
+[2017.08.01-09.41.53:326][ 32]LogSavePackage:Display: Finished SavePackage E:/UnrealProjects/PreSaleFrameWork/Content/Blueprints/FurdoPawn.uasset
+[2017.08.01-09.41.54:600][160]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.41.54:620][160]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.41.54:620][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-09.41.54:621][160]PIE: New page: PIE session: Walkthrough (Aug 1, 2017, 8:41:54 PM)
+[2017.08.01-09.41.54:621][160]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Walkthrough
+[2017.08.01-09.41.54:623][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002746s)
+[2017.08.01-09.41.54:624][160]LogAIModule: Creating AISystem for world Walkthrough
+[2017.08.01-09.41.54:624][160]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2017.08.01-09.41.54:624][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Walkthrough.Walkthrough to /Game/UEDPIE_0_Walkthrough.Walkthrough (0.003723s)
+[2017.08.01-09.41.54:671][160]LogInit: XAudio2 using 'DELL S2415H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-09.41.54:682][160]LogInit: FAudioDevice initialized.
+[2017.08.01-09.41.54:717][160]LogLoad: Game class is 'PreSaleGameMode_C'
+[2017.08.01-09.41.54:725][160]LogWorld: Bringing World /Game/UEDPIE_0_Walkthrough.Walkthrough up for play (max tick rate 0) at 2017.08.01-15.11.54
+[2017.08.01-09.41.54:726][160]LogWorld: Bringing up level for play took: 0.001484
+[2017.08.01-09.41.54:727][160]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.41.54:727][160]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.01-09.41.54:727][160]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.41.54:729][160]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.01-09.41.54:729][160]PIE: Info Play in editor start time for /Game/UEDPIE_0_Walkthrough -0.81
+[2017.08.01-09.41.54:729][160]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.42.00:519][829]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.42.00:561][829]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.42.01:643][949]LogEditorTransaction: Undo Delete current selection
+[2017.08.01-09.42.01:866][973]LogEditorTransaction: Undo Delete current selection
+[2017.08.01-09.42.02:049][984]LogEditorTransaction: Undo Delete current selection
+[2017.08.01-09.42.02:240][  0]LogEditorTransaction: Undo Delete current selection
+[2017.08.01-09.42.02:437][ 23]LogEditorTransaction: Undo Delete current selection
+[2017.08.01-09.42.02:635][ 46]LogEditorTransaction: Undo Edit Add Default Movement Bindings
+[2017.08.01-09.42.02:639][ 46]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_7:PersistentLevel.FurdoPawn_C_1.CollisionComponent0) Component already registered.
+[2017.08.01-09.42.02:815][ 62]LogEditorTransaction: Undo Edit Add Default Movement Bindings
+[2017.08.01-09.42.02:818][ 62]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_7:PersistentLevel.FurdoPawn_C_1.CollisionComponent0) Component already registered.
+[2017.08.01-09.42.03:006][ 82]LogEditorTransaction: Undo Remove Components
+[2017.08.01-09.42.03:198][101]LogEditorTransaction: Undo Edit Default Pawn Class
+[2017.08.01-09.42.03:610][150]LogEditorTransaction: Undo Edit Default Pawn Class
+[2017.08.01-09.42.06:180][435]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-09.42.06:201][435]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Walkthrough.Walkthrough:PersistentLevel' has LevelScriptBlueprint '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough' with GeneratedClass '/Game/Walkthrough.Walkthrough_C' with ClassGeneratedBy '/Game/Walkthrough.Walkthrough:PersistentLevel.Walkthrough'
+[2017.08.01-09.42.06:201][435]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.01-09.42.06:201][435]LogPlayLevel: [PlayLevel] Compiling FurdoPawn before play...
+[2017.08.01-09.42.06:210][435]LogWorld: --- Actors Currently in /Engine/Transient.World_6:PersistentLevel ---
+[2017.08.01-09.42.06:210][435]LogWorld:   /Engine/Transient.World_6:PersistentLevel.WorldSettings
+[2017.08.01-09.42.06:210][435]LogWorld:   /Engine/Transient.World_6:PersistentLevel.Brush_6
+[2017.08.01-09.42.06:210][435]LogWorld:   /Engine/Transient.World_6:PersistentLevel.DefaultPhysicsVolume_6
+[2017.08.01-09.42.06:210][435]LogWorld:   /Engine/Transient.World_6:PersistentLevel.ParticleEventManager_6
+[2017.08.01-09.42.06:210][435]LogWorld:   NONE
+[2017.08.01-09.42.06:210][435]LogWorld:   NONE
+[2017.08.01-09.42.06:210][435]LogWorld:   NONE
+[2017.08.01-09.42.06:210][435]LogWorld:   NONE
+[2017.08.01-09.42.06:210][435]LogWorld:   NONE
+[2017.08.01-09.42.06:210][435]LogWorld:   NONE
+[2017.08.01-09.42.06:210][435]LogWorld:   NONE
+[2017.08.01-09.42.06:210][435]LogWorld:   NONE
+[2017.08.01-09.42.06:210][435]LogWorld:   NONE
+[2017.08.01-09.42.06:210][435]LogWorld:   NONE
+[2017.08.01-09.42.06:210][435]LogWorld:   /Engine/Transient.World_6:PersistentLevel.FurdoPawn_C_8
+[2017.08.01-09.42.06:210][435]LogWorld:   /Engine/Transient.World_6:PersistentLevel.FurdoPawn_C_7
+[2017.08.01-09.42.06:453][435]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.242 s
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: 
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1502]
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: Could not remove actor /Engine/Transient.World_6:PersistentLevel.REINST_FurdoPawn_C_5 from world (check level is /Engine/Transient.World_6:PersistentLevel)
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: Stack: 
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E29AE2B6
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E275B8C2
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E2771E86
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DFE87C26
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF57A983
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DF5803F3
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DBECD79B
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DBECC228
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DBEC751A
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DBEC8672
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DBE9B9E3
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DC00AE36
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DBFF5E22
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DC012354
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DBAE2DC8
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DC308D86
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor.exe!0x000000003F30E2B2
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor.exe!0x000000003F2FF0B0
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor.exe!0x000000003F2FF12A
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor.exe!0x000000003F310CF9
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: UE4Editor.exe!0x000000003F3125F7
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: kernel32.dll!0x000000007772652D
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: ntdll.dll!0x000000007785C521
+[2017.08.01-09.42.06:453][435]LogOutputDevice:Error: 
+[2017.08.01-09.42.06:457][435]LogStats:                SubmitErrorReport -  0.000 s
